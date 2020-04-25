@@ -10,15 +10,15 @@ name: Hello World
 
 on:
   repository_dispatch:
-  release:
-    types: published
+#  release:
+#    types: published
 #  push:
 #    branches:
 #      - master
 #    paths:
 #      - 'vssr.config'
-  schedule:
-    - cron: 0 8 * * 5
+#  schedule:
+#    - cron: 0 8 * * 5
 #  watch:
 #    types: started
 
