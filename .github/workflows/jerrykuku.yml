@@ -10,7 +10,7 @@ name: Hello World
 
 on:
   repository_dispatch:
-#  release:
+  release:
 #    types: published
 #  push:
 #    branches:
